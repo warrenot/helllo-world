@@ -1,0 +1,56 @@
+body{
+  background-image: url(Mccloud.jpeg);
+  background-size: 100%  100%;
+  background-position: left-bottom;
+  background-repeat: no-repeat;
+  margin: 0;
+  margin-right: 0;
+}
+
+.sidenav{
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  background-color: green;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+.sidenav a{
+  padding: 0px 8px 8px 18px;
+  font-size: 20px;
+  text-decoration: none;
+  color:white;
+  display: block;
+}
+
+.sidenav a:hover{
+  color:orange;
+}
+
+h1{
+  font-size: 45px;
+  padding-top: 100px;
+  padding-left: 40%;
+  font-family: fantasy;
+
+}
+ h2{
+   padding-top: 80px;
+   padding-left: 40%;
+   color: purple;
+   font-family: helvetica;
+
+ }
+
+ .footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding-left: 18px;
+  padding-bottom: 20px;
+   color: black;
+   text-align:left ;
+
+ }

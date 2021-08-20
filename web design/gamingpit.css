@@ -1,0 +1,107 @@
+body{
+  background-image: url(Mccloud.jpeg);
+  background-size: 100%  100%;
+  background-position: left-bottom;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+  text-align: center;
+
+}
+
+li{
+  float: left;
+  font-size: 20px;
+
+}
+
+li a{
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 20px;
+
+}
+
+li a:hover{
+  background-color: white;
+}
+
+h1{
+  width: 100%;
+  color: yellow;
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 3px 5px orange;
+
+}
+
+h2{
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+  font-family: cursive;
+
+}
+
+table{
+font-family:cursive;
+border-collapse: collapse;
+width: 60%;
+color: #016020;
+text-align: center;
+margin-top: 80px;
+margin-bottom: 100px;
+}
+
+th{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+  background-color: yellow;
+  padding: 20px;
+  padding-right: 1px
+
+}
+td{
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+}
+
+tr:nth-child(odd){
+  background-color: yellow;
+}
+
+tr:nth-child(even){
+  background-color: orange;
+}
+
+.container{
+  text-align: center;
+  padding-top: 40px;
+  color: red;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: purple;
+  color: black;
+  text-align: center;
+
+}

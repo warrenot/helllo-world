@@ -1,0 +1,67 @@
+body{
+  background-image: url(Mccloud.jpeg);
+  background-size: 100%  100%;
+  background-position: left-bottom;
+  background-repeat: no-repeat;
+  margin: 0;
+  margin-right: 0;
+}
+
+.navbar{
+  font-family: fantasy;
+  width: 100%;
+  background-color;
+  overflow: auto;
+
+}
+.navbar a{
+  font-family: cursive;
+  float: left;
+  padding: 8px;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+  width: 32.129%;
+  text-align: center;
+  background-color: lightgreen;
+}
+
+.navbar a:hover{
+  background-color: orange;
+}
+
+h1{
+  width: 100%;
+  color: yellow;
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 3px 5px green;
+
+}
+
+h2{
+  color: red;
+  font-family: cursive;
+  font-size: 43px;
+  padding-left: 40%;
+}
+
+h3{
+  color: darkviolet ;
+  font-family:lato;
+  font-size: 25px;
+  padding-left: 42%;
+}
+
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: purple;
+  color: black;
+  text-align: center;
+
+}
